@@ -56,10 +56,8 @@ int main(int argc, char* argv[]) {
     }
 
     // output converted string
-    // @CONCERN s, traversal, output format
-    for (auto pc = s.cbegin(); pc != s.cend(); ++pc)
-        std::cout << *pc;
-    std::cout << '\n';
+    // @CONCERN s, output()
+    output(s.cbegin(), s.cend());
 
     return 0;
 }
