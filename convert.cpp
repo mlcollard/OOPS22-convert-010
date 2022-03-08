@@ -66,7 +66,7 @@ int main(int argc, char* argv[]) {
 
     // convert the string according to the option
     // @CONCERN "--upper", "--lower", invalid options, error handling
-    // @CONCERN s, upper(), lower()
+    // @CONCERN upper(), lower()
     Conversion conversion;
     if (option == "--upper") {
 
